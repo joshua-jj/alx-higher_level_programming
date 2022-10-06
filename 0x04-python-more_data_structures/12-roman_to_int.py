@@ -3,7 +3,6 @@ def roman_to_int(roman_string):
                 'C': 100, 'D': 500, 'M': 1000}
     roman_string_list = list(roman_string.upper())
     roman_string_list.reverse()
-    letter = 'V'
     length = len(roman_string_list)
     sum = numerals[roman_string_list[0]]
     for i in range(1, length):
